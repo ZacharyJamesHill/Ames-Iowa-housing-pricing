@@ -7,10 +7,10 @@ Ames Iowa is seeking to create a $900,000 low income housing development on 10 a
 
 ### Data Cleaning
 The train and test datasets were read into Pandas dataframes and combined. Dummy values were created using pd.get_dummies. Null values were imputed using sklearn.impute.IterativeImputer.  
-![msno](https://git.generalassemb.ly/ZacharyJamesHill/dsi_assignments/blob/master/project_2/saved_figures/msno.png)
+![msno](./saved_figures/msno.png)
 ### EDA
 The correlation between features and sale price was evaluated using pairplots and heatmaps.
-![pairplot](https://git.generalassemb.ly/ZacharyJamesHill/dsi_assignments/blob/master/project_2/saved_figures/pairplot.png)
+![pairplot](./saved_figures/pairplot.png)
 ### Feature Selection
 I attempted several feature selection techniques including selecting manualy and by correlation with price. Ultimately I dropped features with p values over .05, refitted the model and dropped high p values again.
 ### Modeling Techniques
@@ -19,7 +19,7 @@ Beyond submitting predictions to the leaderboard a train test split of the train
 
 ### Visualization
 A bar chart showing what amount the predicted price is accounted for by each feature in the model.
-![contribs](https://git.generalassemb.ly/ZacharyJamesHill/dsi_assignments/blob/master/project_2/saved_figures/contribs.png)
+![contribs](./saved_figures/contribs.png)
 ### Supplimentary Data
 Various pricing statisics were used to evaluate the value for cost each feature provides.
   
